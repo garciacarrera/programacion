@@ -5,7 +5,7 @@
 
     let items=[]
     usuarios_defenitivos.forEach(element => {
-        let item=`<li class="list-group-item">${element,username}</li>`
+        let item=`<li class="list-group-item">${element.username}</li>`
         items.push(item)
     });
     document.getElementById("lista-usuarios").innerHTML=items.join("")
