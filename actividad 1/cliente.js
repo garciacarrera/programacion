@@ -5,6 +5,10 @@ export default class Cliente{
         this.h=nombre
         this.l=apellido
         this.g=DNI
+
+
+
+        
     }
     mostrar_datosCliente()
     {
